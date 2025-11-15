@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.set_page_config(page_title="Gold SIP Calculator", layout="wide")
-st.title("🏆 Gold SIP Calculator with Graph (No Matplotlib)")
+st.title("🏆 Gold SIP Calculator with Graph")
 
 monthly_investment = st.number_input("📥 Monthly Investment (₹)", min_value=0.0, value=2000.0)
 years = st.number_input("📅 Investment Duration (Years)", min_value=1, value=10)
